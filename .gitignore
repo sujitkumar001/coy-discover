@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local SQLite database
+/data/*.sqlite
+/data/*.sqlite-*
+
+# Local development artifacts
+*.backup
+*.step*.backup
+*.lint-backup
+npm-audit-report.json
